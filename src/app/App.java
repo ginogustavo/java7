@@ -10,7 +10,7 @@ public class App {
         app.diamondOperator();
         app.stringSwitch();
         new Feature3_ResourceMgmt().autoClose();
-        
+
     }
 
     /** Feature 1: Diamond operator */
@@ -59,4 +59,19 @@ public class App {
                 break;
         }
     }
+
+    /**Feature 4: Numeric Literals with Underscore for easy reading */
+    public void numericLiteralsUnderscore() {
+        //Before
+        int thousand = 1000;
+
+        //Since Java7
+        //It is easier to read
+        int thousand2 = 1_000;
+        int million = 1_000_000;
+
+        //Binary literals
+        int binary = 0b1; //So you don't have to convert them to hexadecimals anymore
+    }
+
 }

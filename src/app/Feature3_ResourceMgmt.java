@@ -5,7 +5,7 @@ import java.io.FileInputStream;
 
 public class Feature3_ResourceMgmt {
 
-    /** Automatic Resource Management */
+    /** Feature 3: Automatic Resource Management */
     public void autoClose() {
 
         // Before
