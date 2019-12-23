@@ -4,8 +4,6 @@ import java.io.IOException;
 import java.net.ConnectException;
 import java.sql.SQLException;
 
-import javax.sql.ConnectionEvent;
-
 class Feature5_ExceptionHandling {
 
     public void oldMethod() {
