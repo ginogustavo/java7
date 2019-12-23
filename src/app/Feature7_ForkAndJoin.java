@@ -12,8 +12,8 @@ import java.util.concurrent.RecursiveAction;
  * is that ideally no worker thread is idle. They implement a work-stealing
  * algorithm in that idle workers “steal” the work from those workers who are
  * busy
- * Need to finish the guide below
- * TODO: https://www.pluralsight.com/guides/introduction-to-the-fork-join-framework
+ * TODO: Need to finish the guide below
+ * https://www.pluralsight.com/guides/introduction-to-the-fork-join-framework
  */
 public class Feature7_ForkAndJoin {
     public static void main(String[] args) {
